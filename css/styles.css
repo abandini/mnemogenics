@@ -476,6 +476,28 @@ h3 {
     background-color: var(--gray-100);
 }
 
+.cta-price {
+    margin: var(--spacing-lg) auto var(--spacing-xl);
+    text-align: center;
+}
+
+.domain-price {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--white);
+    font-family: var(--font-mono);
+    display: block;
+    margin-bottom: var(--spacing-sm);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.price-note {
+    font-size: 1rem;
+    color: var(--white);
+    opacity: 0.85;
+    display: block;
+}
+
 /* ---------- Footer ---------- */
 .footer {
     background-color: var(--dark);
@@ -774,6 +796,36 @@ h3 {
 
 .contact-info {
     padding-right: var(--spacing-xl);
+}
+
+.pricing-box {
+    background-color: var(--white);
+    padding: var(--spacing-lg);
+    border-radius: var(--border-radius);
+    margin: var(--spacing-xl) 0;
+    border: 2px solid var(--accent);
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.pricing-box h3 {
+    color: var(--primary);
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.pricing-box p {
+    margin-bottom: 0;
+}
+
+.pricing-box a {
+    color: var(--accent);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.pricing-box a:hover {
+    color: var(--primary);
 }
 
 .domain-highlight {
