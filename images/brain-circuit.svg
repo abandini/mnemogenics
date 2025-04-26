@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>MNEMOGENICS Brain Circuit</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="brainGradient">
+            <stop stop-color="#1a3a8f" offset="0%"></stop>
+            <stop stop-color="#9c6eff" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="circuitGradient">
+            <stop stop-color="#61c7ff" offset="0%"></stop>
+            <stop stop-color="#9c6eff" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Brain Outline -->
+        <path d="M400,100 C500,100 550,150 550,200 C550,250 530,280 550,310 C570,340 590,370 590,420 C590,500 510,530 470,530 C430,530 400,510 400,510 C400,510 370,530 330,530 C290,530 210,500 210,420 C210,370 230,340 250,310 C270,280 250,250 250,200 C250,150 300,100 400,100 Z" stroke="url(#brainGradient)" stroke-width="3" fill="rgba(26, 58, 143, 0.05)"></path>
+        
+        <!-- Circuit Board Pattern Background -->
+        <path d="M100,100 L100,500 L700,500 L700,100 L100,100 Z" stroke="#61c7ff" stroke-width="1" stroke-dasharray="5,5" opacity="0.2"></path>
+        <path d="M200,100 L200,500" stroke="#61c7ff" stroke-width="1" stroke-dasharray="5,5" opacity="0.2"></path>
+        <path d="M300,100 L300,500" stroke="#61c7ff" stroke-width="1" stroke-dasharray="5,5" opacity="0.2"></path>
+        <path d="M400,100 L400,500" stroke="#61c7ff" stroke-width="1" stroke-dasharray="5,5" opacity="0.2"></path>
+        <path d="M500,100 L500,500" stroke="#61c7ff" stroke-width="1" stroke-dasharray="5,5" opacity="0.2"></path>
+        <path d="M600,100 L600,500" stroke="#61c7ff" stroke-width="1" stroke-dasharray="5,5" opacity="0.2"></path>
+        <path d="M100,200 L700,200" stroke="#61c7ff" stroke-width="1" stroke-dasharray="5,5" opacity="0.2"></path>
+        <path d="M100,300 L700,300" stroke="#61c7ff" stroke-width="1" stroke-dasharray="5,5" opacity="0.2"></path>
+        <path d="M100,400 L700,400" stroke="#61c7ff" stroke-width="1" stroke-dasharray="5,5" opacity="0.2"></path>
+        
+        <!-- Brain Regions with Circuit Connections -->
+        <!-- Frontal Lobe -->
+        <circle cx="400" cy="150" r="30" fill="rgba(26, 58, 143, 0.2)" stroke="#1a3a8f" stroke-width="2"></circle>
+        <text x="400" y="155" font-family="'Roboto Mono', monospace" font-size="10" fill="#1a3a8f" text-anchor="middle">FRONTAL</text>
+        
+        <!-- Temporal Lobe Left -->
+        <circle cx="300" cy="250" r="25" fill="rgba(26, 58, 143, 0.2)" stroke="#1a3a8f" stroke-width="2"></circle>
+        <text x="300" y="255" font-family="'Roboto Mono', monospace" font-size="10" fill="#1a3a8f" text-anchor="middle">TEMPORAL</text>
+        
+        <!-- Temporal Lobe Right -->
+        <circle cx="500" cy="250" r="25" fill="rgba(26, 58, 143, 0.2)" stroke="#1a3a8f" stroke-width="2"></circle>
+        <text x="500" y="255" font-family="'Roboto Mono', monospace" font-size="10" fill="#1a3a8f" text-anchor="middle">TEMPORAL</text>
+        
+        <!-- Parietal Lobe -->
+        <circle cx="400" cy="230" r="20" fill="rgba(26, 58, 143, 0.2)" stroke="#1a3a8f" stroke-width="2"></circle>
+        <text x="400" y="235" font-family="'Roboto Mono', monospace" font-size="10" fill="#1a3a8f" text-anchor="middle">PARIETAL</text>
+        
+        <!-- Occipital Lobe -->
+        <circle cx="400" cy="320" r="22" fill="rgba(26, 58, 143, 0.2)" stroke="#1a3a8f" stroke-width="2"></circle>
+        <text x="400" y="325" font-family="'Roboto Mono', monospace" font-size="10" fill="#1a3a8f" text-anchor="middle">OCCIPITAL</text>
+        
+        <!-- Hippocampus Left -->
+        <circle cx="330" cy="350" r="15" fill="rgba(156, 110, 255, 0.3)" stroke="#9c6eff" stroke-width="2"></circle>
+        <text x="330" y="355" font-family="'Roboto Mono', monospace" font-size="8" fill="#9c6eff" text-anchor="middle">HIPPO</text>
+        
+        <!-- Hippocampus Right -->
+        <circle cx="470" cy="350" r="15" fill="rgba(156, 110, 255, 0.3)" stroke="#9c6eff" stroke-width="2"></circle>
+        <text x="470" y="355" font-family="'Roboto Mono', monospace" font-size="8" fill="#9c6eff" text-anchor="middle">HIPPO</text>
+        
+        <!-- Cerebellum -->
+        <circle cx="400" cy="430" r="25" fill="rgba(26, 58, 143, 0.2)" stroke="#1a3a8f" stroke-width="2"></circle>
+        <text x="400" y="435" font-family="'Roboto Mono', monospace" font-size="10" fill="#1a3a8f" text-anchor="middle">CEREBELLUM</text>
+        
+        <!-- Circuit Connections -->
+        <path d="M400,180 C400,190 380,200 380,210 C380,220 390,220 400,230" stroke="url(#circuitGradient)" stroke-width="2" fill="none"></path>
+        <path d="M400,180 C400,190 420,200 420,210 C420,220 410,220 400,230" stroke="url(#circuitGradient)" stroke-width="2" fill="none"></path>
+        
+        <path d="M300,275 C300,290 320,300 330,335" stroke="url(#circuitGradient)" stroke-width="2" fill="none"></path>
+        <path d="M500,275 C500,290 480,300 470,335" stroke="url(#circuitGradient)" stroke-width="2" fill="none"></path>
+        
+        <path d="M400,250 C400,270 380,280 400,300" stroke="url(#circuitGradient)" stroke-width="2" fill="none"></path>
+        <path d="M400,250 C400,270 420,280 400,300" stroke="url(#circuitGradient)" stroke-width="2" fill="none"></path>
+        
+        <path d="M400,342 C400,360 380,380 400,405" stroke="url(#circuitGradient)" stroke-width="2" fill="none"></path>
+        <path d="M400,342 C400,360 420,380 400,405" stroke="url(#circuitGradient)" stroke-width="2" fill="none"></path>
+        
+        <path d="M330,365 C330,380 350,400 400,405" stroke="url(#circuitGradient)" stroke-width="2" fill="none"></path>
+        <path d="M470,365 C470,380 450,400 400,405" stroke="url(#circuitGradient)" stroke-width="2" fill="none"></path>
+        
+        <!-- Memory Nodes -->
+        <circle cx="330" cy="280" r="5" fill="#61c7ff"></circle>
+        <circle cx="470" cy="280" r="5" fill="#61c7ff"></circle>
+        <circle cx="370" cy="200" r="5" fill="#61c7ff"></circle>
+        <circle cx="430" cy="200" r="5" fill="#61c7ff"></circle>
+        <circle cx="370" cy="380" r="5" fill="#61c7ff"></circle>
+        <circle cx="430" cy="380" r="5" fill="#61c7ff"></circle>
+        
+        <!-- Data Flow Animation -->
+        <circle cx="400" cy="150" r="3" fill="#ffffff">
+            <animate attributeName="cx" values="400;370;300;330;370;400;430;500;470;430;400" dur="8s" repeatCount="indefinite"/>
+            <animate attributeName="cy" values="150;200;250;280;335;320;335;280;250;200;150" dur="8s" repeatCount="indefinite"/>
+        </circle>
+        
+        <circle cx="400" cy="430" r="3" fill="#ffffff">
+            <animate attributeName="cx" values="400;430;470;500;470;430;400;370;330;300;370;400" dur="8s" repeatCount="indefinite"/>
+            <animate attributeName="cy" values="430;380;350;250;280;200;150;200;280;250;380;430" dur="8s" repeatCount="indefinite"/>
+        </circle>
+    </g>
+</svg>

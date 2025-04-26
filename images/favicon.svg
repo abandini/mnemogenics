@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>MNEMOGENICS Favicon</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="brainGradient">
+            <stop stop-color="#1a3a8f" offset="0%"></stop>
+            <stop stop-color="#9c6eff" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="circuitGradient">
+            <stop stop-color="#61c7ff" offset="0%"></stop>
+            <stop stop-color="#9c6eff" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Background Circle -->
+        <circle cx="256" cy="256" r="248" fill="#ffffff" stroke="#f5f7fa" stroke-width="4"></circle>
+        
+        <!-- Brain Shape -->
+        <path d="M256,128 C309,128 339,170 339,208 C339,246 324,265 339,284 C354,303 364,322 364,346 C364,394 317,414 292,414 C267,414 256,404 256,404 C256,404 245,414 220,414 C195,414 148,394 148,346 C148,322 158,303 173,284 C188,265 173,246 173,208 C173,170 203,128 256,128 Z" fill="url(#brainGradient)" opacity="0.9"></path>
+        
+        <!-- Left Hemisphere Detail -->
+        <path d="M173,208 C173,208 153,218 153,248 C153,278 173,278 173,308 C173,338 153,348 153,368 C153,388 173,398 188,398" stroke="#ffffff" stroke-width="3" stroke-linecap="round"></path>
+        
+        <!-- Right Hemisphere Detail -->
+        <path d="M339,208 C339,208 359,218 359,248 C359,278 339,278 339,308 C339,338 359,348 359,368 C359,388 339,398 324,398" stroke="#ffffff" stroke-width="3" stroke-linecap="round"></path>
+        
+        <!-- Circuit Elements -->
+        <circle cx="178" cy="238" r="8" fill="url(#circuitGradient)"></circle>
+        <circle cx="334" cy="238" r="8" fill="url(#circuitGradient)"></circle>
+        <circle cx="216" cy="158" r="8" fill="url(#circuitGradient)"></circle>
+        <circle cx="296" cy="158" r="8" fill="url(#circuitGradient)"></circle>
+        <circle cx="178" cy="318" r="8" fill="url(#circuitGradient)"></circle>
+        <circle cx="334" cy="318" r="8" fill="url(#circuitGradient)"></circle>
+        <circle cx="216" cy="368" r="8" fill="url(#circuitGradient)"></circle>
+        <circle cx="296" cy="368" r="8" fill="url(#circuitGradient)"></circle>
+        <circle cx="256" cy="133" r="8" fill="url(#circuitGradient)"></circle>
+        <circle cx="256" cy="396" r="8" fill="url(#circuitGradient)"></circle>
+        
+        <!-- Circuit Lines -->
+        <path d="M178,238 L216,158" stroke="#61c7ff" stroke-width="2" opacity="0.8"></path>
+        <path d="M334,238 L296,158" stroke="#61c7ff" stroke-width="2" opacity="0.8"></path>
+        <path d="M178,318 L216,368" stroke="#61c7ff" stroke-width="2" opacity="0.8"></path>
+        <path d="M334,318 L296,368" stroke="#61c7ff" stroke-width="2" opacity="0.8"></path>
+        <path d="M256,133 L216,158" stroke="#61c7ff" stroke-width="2" opacity="0.8"></path>
+        <path d="M256,133 L296,158" stroke="#61c7ff" stroke-width="2" opacity="0.8"></path>
+        <path d="M256,396 L216,368" stroke="#61c7ff" stroke-width="2" opacity="0.8"></path>
+        <path d="M256,396 L296,368" stroke="#61c7ff" stroke-width="2" opacity="0.8"></path>
+    </g>
+</svg>

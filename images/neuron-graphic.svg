@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>MNEMOGENICS Neuron Graphic</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="neuronGradient">
+            <stop stop-color="#1a3a8f" offset="0%"></stop>
+            <stop stop-color="#9c6eff" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Neuron Cell Body -->
+        <circle cx="400" cy="300" r="80" fill="url(#neuronGradient)" opacity="0.8"></circle>
+        
+        <!-- Dendrites -->
+        <path d="M400,220 C380,180 350,150 300,130" stroke="url(#neuronGradient)" stroke-width="3" opacity="0.7"></path>
+        <path d="M400,220 C420,170 430,130 420,80" stroke="url(#neuronGradient)" stroke-width="3" opacity="0.7"></path>
+        <path d="M400,220 C450,200 490,190 540,200" stroke="url(#neuronGradient)" stroke-width="3" opacity="0.7"></path>
+        
+        <!-- More Dendrites - Left -->
+        <path d="M320,280 C280,270 250,280 220,270" stroke="url(#neuronGradient)" stroke-width="3" opacity="0.7"></path>
+        <path d="M320,280 C290,260 260,220 240,180" stroke="url(#neuronGradient)" stroke-width="3" opacity="0.7"></path>
+        <path d="M320,280 C300,310 260,330 210,330" stroke="url(#neuronGradient)" stroke-width="3" opacity="0.7"></path>
+        
+        <!-- More Dendrites - Right -->
+        <path d="M480,280 C520,270 550,280 580,270" stroke="url(#neuronGradient)" stroke-width="3" opacity="0.7"></path>
+        <path d="M480,280 C510,260 540,220 560,180" stroke="url(#neuronGradient)" stroke-width="3" opacity="0.7"></path>
+        <path d="M480,280 C500,310 540,330 590,330" stroke="url(#neuronGradient)" stroke-width="3" opacity="0.7"></path>
+        
+        <!-- Axon -->
+        <path d="M400,380 C400,420 400,450 400,500" stroke="url(#neuronGradient)" stroke-width="5" opacity="0.8"></path>
+        
+        <!-- Axon Terminals -->
+        <path d="M400,500 C380,530 350,540 320,550" stroke="url(#neuronGradient)" stroke-width="3" opacity="0.7"></path>
+        <path d="M400,500 C400,540 400,560 400,580" stroke="url(#neuronGradient)" stroke-width="3" opacity="0.7"></path>
+        <path d="M400,500 C420,530 450,540 480,550" stroke="url(#neuronGradient)" stroke-width="3" opacity="0.7"></path>
+        
+        <!-- Small circles at the terminal ends -->
+        <circle cx="320" cy="550" r="8" fill="url(#neuronGradient)" opacity="0.6"></circle>
+        <circle cx="400" cy="580" r="8" fill="url(#neuronGradient)" opacity="0.6"></circle>
+        <circle cx="480" cy="550" r="8" fill="url(#neuronGradient)" opacity="0.6"></circle>
+        
+        <!-- Electrical Impulse Animation (Small Dots) -->
+        <circle cx="400" cy="330" r="5" fill="#61c7ff" opacity="0.8">
+            <animate attributeName="cy" values="330;340;350;360;370;380;390;400;410;420;430;440;450;460;470;480;490;500" dur="3s" repeatCount="indefinite"/>
+        </circle>
+        
+        <!-- DNA Helix Elements in Background (Subtle) -->
+        <path d="M150,100 C200,130 250,170 200,200 C150,230 100,270 150,300 C200,330 250,370 200,400" stroke="#61c7ff" stroke-width="2" opacity="0.3"></path>
+        <path d="M250,100 C200,130 150,170 200,200 C250,230 300,270 250,300 C200,330 150,370 200,400" stroke="#9c6eff" stroke-width="2" opacity="0.3"></path>
+        
+        <path d="M550,200 C600,230 650,270 600,300 C550,330 500,370 550,400 C600,430 650,470 600,500" stroke="#61c7ff" stroke-width="2" opacity="0.3"></path>
+        <path d="M650,200 C600,230 550,270 600,300 C650,330 700,370 650,400 C600,430 550,470 600,500" stroke="#9c6eff" stroke-width="2" opacity="0.3"></path>
+    </g>
+</svg>
